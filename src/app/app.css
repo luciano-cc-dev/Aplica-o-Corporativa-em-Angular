@@ -1,0 +1,65 @@
+/* Container principal com a fonte padrão do Fedora/GNOME */
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Card do Formulário de Cadastro/Edição */
+.card-form {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Tabela Estilizada */
+.tabela-dados {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+}
+
+.tabela-dados th {
+  background-color: #0056b3; /* Azul padrão corporativo */
+  color: white;
+  text-align: left;
+  padding: 12px;
+}
+
+.tabela-dados td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Botões de Ação */
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.btn:hover { opacity: 0.8; }
+
+.btn-salvar { background-color: #28a745; color: white; }
+.btn-editar { background-color: #ffc107; color: black; margin-right: 5px; }
+.btn-excluir { background-color: #dc3545; color: white; }
