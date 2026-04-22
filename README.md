@@ -1,59 +1,45 @@
-# AplicacaoCorporativa
+# 🏛️ Sistema de Gestão de Pessoas - CRUD Angular & Oracle Cloud
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Este projeto é uma aplicação Single Page (SPA) desenvolvida em **Angular 18** para o gerenciamento de registros de usuários. A aplicação consome uma API REST hospedada na **Oracle Cloud (ORDS)**, permitindo operações completas de CRUD.
 
-## Development server
+## 🚀 Funcionalidades
 
-To start a local development server, run:
+- **Listagem Dinâmica:** Visualização de registros vindos diretamente do banco de dados Oracle.
+- **Cadastro de Usuários:** Interface para inserção de novos registros (via POST).
+- **Edição em Tempo Real:** Opção de atualizar dados existentes (via PUT).
+- **Exclusão Segura:** Remoção de registros com confirmação (via DELETE).
+- **Interface Responsiva:** Estilização profissional focada em sistemas corporativos.
 
-```bash
-ng serve
-```
+## 🛠️ Tecnologias Utilizadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Frontend:** Angular (v18+)
+- **Linguagem:** TypeScript
+- **Estilização:** CSS3 (Arquitetura de classes separadas)
+- **Backend/Banco:** Oracle Cloud Infrastructure (OCI) + ORDS (Oracle REST Data Services)
+- **Ambiente de Desenvolvimento:** Fedora Linux
 
-## Code scaffolding
+## 📋 Pré-requisitos
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Antes de começar, você vai precisar ter instalado em sua máquina:
+- Node.js
+- Angular CLI
 
-```bash
-ng generate component component-name
-```
+## 🔧 Instalação e Execução
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. Clone o repositório:
+   `git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git`
 
-```bash
-ng generate --help
-```
+2. Entre na pasta do projeto:
+   `cd NOME_DO_REPOSITORIO`
 
-## Building
+3. Instale as dependências:
+   `npm install`
 
-To build the project run:
+4. Execute a aplicação:
+   `ng serve`
 
-```bash
-ng build
-```
+5. Abra o navegador em `http://localhost:4200/`.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 👤 Autor
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Luciano** *Graduando em Ciência da Computação - UFRR* Boa Vista, Roraima.
